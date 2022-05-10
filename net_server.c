@@ -7,7 +7,7 @@
 #include <sys/socket.h>
 #include <sys/un.h>
 #include <netinet/in.h>
-
+#define SIM_LENGTH 10 
 #define PORT 9999
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
   int sock; 
   int connect_sock; 
   struct sockaddr_in serv_name; 
-  size_t len; 
+  socklen_t len; 
   int count;
   
   sock = socket(AF_INET, SOCK_STREAM, 0);  
