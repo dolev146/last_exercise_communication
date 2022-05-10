@@ -10,7 +10,7 @@
 #define SIM_LENGTH 10 
 #define PORT 5001
 
-// gcc net_server.c -o net_server
+// gcc net_server.c -o net_server -Wall -Wextra -Werror -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function ; ./net_server
 
 int main(void)
 { 

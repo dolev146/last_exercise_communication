@@ -13,7 +13,7 @@
 #define SIM_LENGTH 10
 #define IP_ADDRESS "127.0.0.1"
 #define PORT 5001
-// gcc net_client.c -o net_client -Wall -Wextra -Werror -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function
+// gcc net_client.c -o net_client -Wall -Wextra -Werror -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function ; ./net_client
 int main(void)
 {
   int sock;
