@@ -8,7 +8,9 @@
 #include <sys/un.h>
 #include <netinet/in.h>
 #define SIM_LENGTH 10 
-#define PORT 9999
+#define PORT 5001
+
+// gcc net_server.c -o net_server
 
 int main(void)
 { 
